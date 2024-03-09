@@ -50,7 +50,7 @@ def player_moves(board, player):
         if not valid_input(row) or not valid_input(col):
             print("Invalid input.Enter numbers bteween 0 and 2")
             continue
-        row, col = int(row), int(col)
+        row, col = int(row), int(col) 
         if board[row][col] != ' ':
             print("Invalid move(Occupied cell)")
             continue
