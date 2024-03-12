@@ -19,7 +19,7 @@ hw_menu = {
     },
     "Pani puri": {
         "ingredients": ("Potato", "Rawa"),
-        "quantities": (300, 2),
+        "quantities": (300, 2), 
         "units": ("g", "kg")
     },
 }
